@@ -1,0 +1,81 @@
+/* Page background */
+body {
+  margin: 0;
+  padding: 29px 0;
+  background-color: #adbfb8;
+}
+
+/* White card in the center */
+.form-container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* Form title */
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #333;
+}
+
+/* Spacing between fields */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Field labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Text boxes */
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Dropdown */
+select {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+/* Radio buttons and checkboxes: one per line, normal weight */
+.radio-group label,
+.checkbox-group label {
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-reset {
+  background-color: #dc3545;
+}
+
+.btn-submit {
+  background-color: #28a745;
+}
